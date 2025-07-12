@@ -1,0 +1,130 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v48-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v20-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-secondary-light: #ffffff;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  color: var(--color-secondary-light);
+  background-color: var(--color-primary-light);
+  border-radius: 32px;
+  border: transparent;
+  width: 219px;
+  height: 53px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 100%;
+}
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  border: 2px solid var(--color-primary-light);
+}
+
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+}
+
+.hero-title {
+  color: var(--color-primary-light);
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+}
+
+.accent {
+  color: var(--color-primary-light);
+}
+
+.text-accent {
+  font-weight: 600;
+  font-style: "Roboto", SemiBold;
+  text-transform: capitalize;
+}
+
+.about-text {
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.accent.capitalize {
+  text-transform: capitalize;
+}
+
+.section-title {
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-light);
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.footer-link {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-link:hover {
+  color: var(--color-primary-light);
+}
+
+.address-copyright {
+  font-size: 13px;
+  line-height: 100%;
+}
